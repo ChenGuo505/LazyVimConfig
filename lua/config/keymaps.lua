@@ -14,3 +14,6 @@ keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 -- windows
 keymap.set("n", "|", "<C-w>v") -- vertical
 keymap.set("n", "-", "<C-w>s") -- horizontal
+
+-- search
+keymap.set("n", "<leader>h", ":nohl<CR>")
